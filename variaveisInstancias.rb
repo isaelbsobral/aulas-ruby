@@ -16,6 +16,7 @@ ruby = Linguagem.new("Ruby")
 php = Linguagem.new("PHP")
 java = Linguagem.new("Java")
 html = Linguagem.new("HTML")
+
 #imprimindo na tela
 puts "Minhas linguagens favoritas são:"
 puts ruby.nome; php.nome; java.nome; html.nome

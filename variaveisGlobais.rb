@@ -1,4 +1,5 @@
 $cafePadrao = "Extra Forte" #variável global
+
 class Cafe
   def initialize(nome)
     @nome = nome
