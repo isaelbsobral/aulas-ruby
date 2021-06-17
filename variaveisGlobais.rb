@@ -16,7 +16,7 @@ end
 cafe = Cafe.new("Fraco"); cafe.tipo;
 puts $cafePadrao; tipo
 
-#criando constantes - é possível alterar valores de constantes, o Ruby alerta que alteração será feita
+#criando constantes - sempre começam com letra maiuscula. É possível alterar valores de constantes, o Ruby alerta que alteração será feita
 Constante = 4
 Constante = $cafePadrao
 puts Constante
