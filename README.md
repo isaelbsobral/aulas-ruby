@@ -16,19 +16,19 @@
 
 **IDE utilizada** :computer:
 
-RubyMine - JetBrains 
+​	RubyMine - JetBrains 
 
 **Entrega** :calendar:
 
-​	**01/07/2021**
+​	01/07/2021
 
 **Links de apoio** :link:
 
-[Jornada do DEV](https://jornadadodev.com.br/cursos/curso-de-ruby)
+​	[Jornada do DEV](https://jornadadodev.com.br/cursos/curso-de-ruby)
 
-[Ruby](https://www.ruby-lang.org/pt/)
+​	[Ruby](https://www.ruby-lang.org/pt/)
 
-[JetBrains Code With Me](https://www.jetbrains.com/help/ruby/code-with-me.html)
+​	[JetBrains Code With Me](https://www.jetbrains.com/help/ruby/code-with-me.html)
 
 
 
