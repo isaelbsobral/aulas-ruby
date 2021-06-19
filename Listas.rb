@@ -1,6 +1,7 @@
 =begin Criando e preenchendo listas
  Sintaxe -> nomaDaLista = ["valor1","valor2",..."valorN"] //
  Acessando valores da lista -> nomeDaLista[1]
+ Uma lista pode armazenar tipos de dados diferentes
 MÉTODOS DE LISTA:
   nomeDaLista.append()  -> Adiciona um item no fim da lista
   nomeDaLista.delete() -> Apaga o item da lista e o exibe
