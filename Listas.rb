@@ -12,7 +12,7 @@ MÉTODOS DE LISTA:
 Exs.:
   1 - Crie uma lista de compras com verduras e frutas. Crie uma segunda lista para receber só as frutas
 e imprima na tela os valores dessa nova lista. Em seguida adicione um item na lista e delete o primeiro item
-  2 - Crie um algoritmo que faça uma lista de compras com 3 itens e permita excluir os valores digitados pelo usuário
+  2 - Crie um algoritmo que faça uma lista de compras com 10 itens e permita excluir os valores digitados pelo usuário
 =end
 #Resolução 1
   listaDeCompras = ["tomate","banana","maçã","goiaba","umbu","cenoura","batatinha","beterraba"]
@@ -21,29 +21,32 @@ e imprima na tela os valores dessa nova lista. Em seguida adicione um item na li
   puts listaDeFrutas.delete(listaDeFrutas[0])
 
 #Resolução 2
+puts "Digite o tamanho da lista: "
+tamLista = gets.chomp.to_i #Pega o valor digitado, converte para inteiro e armazena na varia´vel
+$lista = Array.new(tamLista) #Instancia uma lista com o seu tamanho
 
-$lista = []
-puts "Informe os produtos para a lista:"
-$valor1 = gets.chomp
-$valor2 = gets.chomp
-$valor3 = gets.chomp
-$lista.append($valor1,$valor2,$valor3)
-  puts "Minha lista: #{$lista}"
 
+def adicionarProduto
+  puts "Informe os produtos para a lista:"
+  for i in 0..$lista.length-1 #Laço de repetição para armazenar valores no array
+    $lista[i] = gets.chomp
+  end
+end
 def deletarProduto
   puts "Digite o produto que deseja apagar:"
   delProd = gets.chomp
-  if delProd == $valor1 or delProd == $valor2 or delProd == $valor3
+  if $lista.include?(delProd) #include?() -> verifica se o valor passado existe dentro da lista
     $lista.delete(delProd)
     puts "O produto " +delProd+ " foi apagado da lista"
   else
     puts "O produto " +delProd+ " não foi encontrado"
   end
 end
-deletarProduto
+
+adicionarProduto
+puts "Minha lista: #{$lista}"
+deletarProduto #Chamando método
 
 puts "Lista atualizada: #{$lista}"
-
-
 
 
