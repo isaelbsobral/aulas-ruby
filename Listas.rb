@@ -45,9 +45,11 @@ def deletarProduto
 end
 
 adicionarProduto
-puts "Minha lista: #{$lista}"
+puts "Minha lista:"
+p $lista
 deletarProduto #Chamando método
 
-puts "Lista atualizada: #{$lista}"
+puts "Lista atualizada:"
+p $lista
 
 
