@@ -8,7 +8,7 @@
 
 :two: Praticar Exercícios :computer:
 
-:three: Desenvolver MiniProjeto sobre Cafés :coffee:
+:three: Desenvolver um mini sistema sobre Cafés :coffee:
 
 - Tipos
 - Valor médio de compra 
