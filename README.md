@@ -1,6 +1,6 @@
 # Introdução à Linguagem Ruby :heart:
 
-**Estudos realizados durante o curso do site Jornada do DEV**
+**Estudos realizados durante os cursos nos sites Jornada do DEV e DIO**
 
 **Objetivos até o momento** :dart::
 
@@ -30,7 +30,7 @@
 
 ​	[JetBrains Code With Me](https://www.jetbrains.com/help/ruby/code-with-me.html)
 
-
+​	[Ruby na Prática](https://ifrnead.github.io/rubynapratica/contents/programacao_estruturada/hashes.html)		
 
 
 
