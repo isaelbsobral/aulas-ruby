@@ -28,7 +28,7 @@
 
 ​	[Ruby](https://www.ruby-lang.org/pt/)
 
-​	[JetBrains Code With Me](https://www.jetbrains.com/help/ruby/code-with-me.html)
+​	[Documentação Ruby](https://ruby-doc.org/)
 
 ​	[Ruby na Prática](https://ifrnead.github.io/rubynapratica/contents/programacao_estruturada/hashes.html)		
 
