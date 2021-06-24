@@ -26,7 +26,7 @@ puts cafe1.nome_cafe
 # attr_write -> Get em Ruby
 #Exemplo abaixo com uma classe diefrente
 class ComidaFavorita
-  attr_reader :tipo 
+  attr_reader :tipo
   attr_writer :tipo
   #attr_accessor(:tipo) #Como ele é um SET e GET, pode substitui as duas linhas acima
   def initialize(tipo)
