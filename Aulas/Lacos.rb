@@ -23,7 +23,7 @@ end
 lista = [0,1,2]
 lista.each do |valor4| #para cada elemento da lista ele vai executar o comando do bloco
   puts "Valor #{valor4}"#valor4 vai receber o valor dentro da chave
-end
+end     #| | ->CHAMADOS DE PIPES
 
 #EACH COM HASHS - é necessário passar 2 parametros(chave e valor) no bloco de comando
 meu_hash = {nome: "Isael", idade:24, profissao: "Programador"}
