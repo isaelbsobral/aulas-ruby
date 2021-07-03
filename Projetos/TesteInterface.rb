@@ -1,18 +1,16 @@
 require "gtk3"
 
-class MinhaInterface < Gtk::Window
-    def initialize
-        super
-        set_title "Minha Interface"
-        signal_connect "destroy" do
-            Gtk.main_quit
-        end
-    
-        set_default_size 500,500
-        set_window_position Gtk::Window::Position::CENTER
-        show
-    end
+window = Gtk::Window.new("Palíndromo")
+window.set_size_request(400, 400)
+window.set_border_width(20)
+
+button = Gtk::Button.new(:label => "Say hello")
+button.signal_connect "clicked" do |_widget|
+    puts "Hello World!!"
 end
-Gtk.init
-    janela = MinhaInterface.new
+input = Gtk::Entry.new
+window.add(button)
+window.signal_connect("delete-event") { |_widget| Gtk.main_quit }
+window.show_all
+
 Gtk.main
