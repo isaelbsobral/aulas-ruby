@@ -1,3 +1,4 @@
+#Armazenar 5 valores e exibir o maior entre eles
 num = []
 
 puts "Digite os 5 números"
