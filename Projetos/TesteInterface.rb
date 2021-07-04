@@ -9,8 +9,9 @@ button.signal_connect "clicked" do |_widget|
     puts "Hello World!!"
 end
 
-input = Gtk::Entry.new
+
 window.add(button)
+
 window.signal_connect("delete-event") { |_widget| Gtk.main_quit }
 window.show_all
 
