@@ -3,11 +3,12 @@ num = []
 puts "Digite os 5 números"
 maiorNumero = 0
 for i in 0..4
-    num.append(gets.chomp.to_i)    
+    num[i] = gets.chomp.to_i 
+    if num[i]>maiorNumero 
+        maiorNumero=num[i]
+    end  
 end 
-#num.append("melancia")
-puts num[1]
-#puts num.ordena
-puts num.size 
-puts num
+
+puts "Tamanho do vetor: #{num.size }"
+puts "Meu vetor: #{num.sort}"
 puts "Maior número: #{maiorNumero}"
