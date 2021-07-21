@@ -20,7 +20,7 @@
 
 **Entrega** :calendar:
 
-​	15/07/2021
+​	31/07/2021
 
 **Links de apoio** :link:
 
