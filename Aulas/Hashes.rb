@@ -10,7 +10,7 @@ puts pessoa[:profissao]
 
 
 # Manipulando
-pessoa[:profissao] = "Programador" #Alterando valordde uma hash
+pessoa[:profissao] = "Programador" #Alterando valor de uma hash
 pessoa[:cargo]="Operador" #Adicionando chave e valor
 puts pessoa.keys # retorna um array com as chaves
 puts pessoa.values #retorna um array com os valores
