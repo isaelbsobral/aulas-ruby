@@ -20,7 +20,7 @@
 
 **Entrega** :calendar:
 
-​	31/08/2021
+​	Prazo Indeterminado - Pausa pra focar no TCC do curso técnico
 
 **Links de apoio** :link:
 
