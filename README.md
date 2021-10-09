@@ -1,4 +1,4 @@
-# Introdução à Linguagem Ruby :heart:
+# Introdução à Linguagem Ruby <img align="center" alt="Isael-Ruby" height="50" width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg">
 
 **Estudos realizados durante os cursos nos sites Jornada do DEV e DIO**
 
@@ -20,7 +20,7 @@
 
 **Entrega** :calendar:
 
-​	Prazo Indeterminado - Pausa pra focar no TCC do curso técnico
+​	Prazo Indeterminado 
 
 **Links de apoio** :link:
 
